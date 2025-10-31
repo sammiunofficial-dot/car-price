@@ -25,7 +25,7 @@ function App() {
   const [error, setError] = useState('');
 
   // API base URL - change if your backend runs on a different port
-  const API_URL = import.meta.env.VITE_API_URL;
+  const API_URL = "https://car-price-prediction-backend-l1ee.onrender.com";
 
 
   // Fetch dropdown data when the component mounts
